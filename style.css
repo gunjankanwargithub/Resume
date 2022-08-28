@@ -19,7 +19,12 @@
 }
 
 h3 {
-  color: #54afe4;
+  background-color: #b2dff9;
+  color: #000;
+}
+
+p {
+  padding: 10px 20px;
 }
 
 .name {
@@ -39,10 +44,10 @@ a {
 }
 
 .left {
-  background: rgb(10, 10, 164);
+  background: rgb(7, 7, 114);
   padding: 20px;
   width: 250px;
-  height: 970px;
+  height: 1100px;
   color: white;
 }
 
@@ -50,12 +55,16 @@ a {
   background: rgb(230, 235, 236);
   /* padding: 40px; */
   width: 400px;
-  height: 970px;
+  height: 1100px;
   padding: 10px 20px;
 }
 
 .intro {
   margin-bottom: 10px;
+}
+
+.edu_info {
+  padding: 10px 20px;
 }
 
 .course,
