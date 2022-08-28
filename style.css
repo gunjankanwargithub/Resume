@@ -8,7 +8,7 @@
   width: 700px;
   margin: auto;
   /* margin-right: auto; */
-  background: white;
+  background: rgb(255, 254, 254);
   position: relative;
   margin-top: 20px;
   /* margin: 40px; */
@@ -17,9 +17,20 @@
   justify-content: flex-start;
   gap: 30px;
 }
-.profile {
-  text-align: center;
+
+h3 {
+  color: #54afe4;
 }
+
+.name {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
+}
+
 .profile img {
   max-width: 95%;
   height: auto;
@@ -29,14 +40,54 @@
 
 .left {
   background: rgb(10, 10, 164);
-  /* padding: 40px; */
+  padding: 20px;
   width: 250px;
-  height: 700px;
+  height: 970px;
+  color: white;
 }
 
 .right {
-  background: lightblue;
+  background: rgb(230, 235, 236);
   /* padding: 40px; */
   width: 400px;
-  height: 700px;
+  height: 970px;
+  padding: 10px 20px;
+}
+
+.intro {
+  margin-bottom: 10px;
+}
+
+.course,
+.year {
+  text-align: left;
+}
+
+.institution,
+.result {
+  text-align: right;
+}
+
+.edu {
+  margin-bottom: 10px;
+}
+
+.career {
+  margin-bottom: 10px;
+}
+
+.projects li {
+  list-style: none;
+}
+
+.projects {
+  margin-bottom: 10px;
+}
+
+.comp {
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-bottom: 10px;
 }
