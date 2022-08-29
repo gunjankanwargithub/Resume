@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .container {
   width: 700px;
   margin: auto;
@@ -24,11 +28,20 @@ h3 {
 }
 
 p {
+  font-size: 14px;
   padding: 10px 20px;
+}
+
+.profile img {
+  max-width: 95%;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
 }
 
 .name {
   font-size: 22px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -37,23 +50,34 @@ a {
 }
 
 .left {
-  background: rgb(7, 7, 114);
+  background: #070772;
   padding: 20px;
-  width: 250px;
-  height: 1100px;
+  width: 300px;
+  height: 1350px;
   color: white;
 }
 
 .right {
   background: rgb(230, 235, 236);
-  /* padding: 40px; */
   width: 400px;
-  height: 1100px;
+  height: 1350px;
   padding: 10px 20px;
 }
 
 .intro {
   margin-bottom: 10px;
+}
+
+.intro-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
+}
+
+.edu-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
 }
 
 .edu_info {
@@ -74,8 +98,19 @@ a {
   margin-bottom: 10px;
 }
 
+.career-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
+}
 .career {
   margin-bottom: 10px;
+}
+
+.project-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
 }
 
 .projects li {
@@ -86,12 +121,30 @@ a {
   margin-bottom: 10px;
 }
 
+.comp-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
+}
+
 .comp {
   margin-bottom: 10px;
 }
 
+.details-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
+}
+
 .details {
   margin-bottom: 10px;
+}
+
+.dec-icon {
+  stroke: #070772;
+  width: 32px;
+  height: 32px;
 }
 
 li {
