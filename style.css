@@ -6,22 +6,24 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: #000;
 }
 
 .container {
   width: 700px;
   margin: auto;
   background: rgb(255, 254, 254);
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 5px;
 }
 
 h3 {
-  background-color: #b2dff9;
+  background-color: #dcf0fc;
   color: #000;
+  padding: 7px 7px;
 }
 
 p {
@@ -32,14 +34,52 @@ p {
 .profile img {
   max-width: 95%;
   height: auto;
-  margin: auto;
+  margin-bottom: 15px;
   border-radius: 50%;
 }
 
 .name {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.profession {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.linkedin-icon {
+  stroke: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+
+.email-icon {
+  stroke: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+
+.number-icon {
+  stroke: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+
+.house-icon {
+  stroke: #ffffff;
+  width: 18px;
+  height: 18px;
+}
+
+.eye-icon {
+  stroke: #ffffff;
+  width: 18px;
+  height: 18px;
 }
 
 a {
@@ -47,17 +87,17 @@ a {
 }
 
 .left {
-  background: #070772;
+  background: #2a78ab;
   padding: 20px;
   width: 300px;
-  height: 1350px;
+  /* height: 1350px; */
   color: white;
 }
 
 .right {
-  background: rgb(230, 235, 236);
+  background: rgb(255, 255, 255);
   width: 400px;
-  height: 1350px;
+  /* height: 1350px; */
   padding: 10px 20px;
 }
 
@@ -65,14 +105,26 @@ a {
   margin-bottom: 10px;
 }
 
+.profession {
+  text-transform: uppercase;
+}
+
+.links {
+  margin-bottom: 40px;
+}
+
+.relevant-skills {
+  margin-bottom: 20px;
+}
+
 .intro-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
 
 .edu-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
@@ -96,7 +148,7 @@ a {
 }
 
 .career-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
@@ -105,7 +157,7 @@ a {
 }
 
 .project-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
@@ -119,7 +171,7 @@ a {
 }
 
 .comp-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
@@ -129,7 +181,7 @@ a {
 }
 
 .details-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
@@ -139,7 +191,7 @@ a {
 }
 
 .dec-icon {
-  stroke: #070772;
+  stroke: #2a78ab;
   width: 32px;
   height: 32px;
 }
