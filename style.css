@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   margin: auto;
   background: rgb(255, 254, 254);
   /* margin-top: 20px; */
@@ -29,6 +30,7 @@ h3 {
 p {
   font-size: 14px;
   padding: 10px 20px;
+  /* width: 100%; */
 }
 
 .profile img {
@@ -52,34 +54,19 @@ p {
   margin-bottom: 30px;
 }
 
-.linkedin-icon {
+.icon {
   stroke: #ffffff;
   width: 18px;
   height: 18px;
 }
 
-.email-icon {
-  stroke: #ffffff;
-  width: 18px;
-  height: 18px;
+.icons-list li {
+  list-style: none;
+  margin-left: 0;
 }
 
-.number-icon {
-  stroke: #ffffff;
-  width: 18px;
-  height: 18px;
-}
-
-.house-icon {
-  stroke: #ffffff;
-  width: 18px;
-  height: 18px;
-}
-
-.eye-icon {
-  stroke: #ffffff;
-  width: 18px;
-  height: 18px;
+.social_info {
+  font-size: 14px;
 }
 
 a {
@@ -113,8 +100,19 @@ a {
   margin-bottom: 40px;
 }
 
+/* .icon {
+  display: flex;
+  align-items: center;
+} */
+
+/* .icons-list {
+  display: flex;
+  align-items: center;
+} */
+
 .relevant-skills {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .intro-icon {
@@ -130,6 +128,7 @@ a {
 }
 
 .edu_info {
+  font-size: 14px;
   padding: 10px 20px;
 }
 
@@ -178,6 +177,8 @@ a {
 
 .comp {
   margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .details-icon {
@@ -188,6 +189,8 @@ a {
 
 .details {
   margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .dec-icon {
@@ -198,4 +201,175 @@ a {
 
 li {
   margin-left: 30px;
+}
+
+/* ************************************************** */
+/* Responsive */
+/* ************************************************** */
+
+@media (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .edu_info {
+    font-size: 12px;
+  }
+
+  .comp {
+    font-size: 12px;
+  }
+
+  .details {
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .profession {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .icon {
+    stroke: #ffffff;
+    width: 16px;
+    height: 16px;
+  }
+
+  .social_info {
+    font-size: 10px;
+  }
+
+  .relevant-skills {
+    font-size: 14px;
+  }
+
+  .rel-skills li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .edu_info {
+    font-size: 10px;
+  }
+
+  .comp {
+    font-size: 10px;
+  }
+
+  .details {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .profession {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .icon {
+    stroke: #ffffff;
+    width: 13px;
+    height: 13px;
+  }
+
+  .social_info {
+    font-size: 9px;
+  }
+
+  .relevant-skills {
+    font-size: 11px;
+  }
+
+  .rel-skills li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    margin: 10px;
+    background: rgb(255, 254, 254);
+    /* margin-top: 20px; */
+    display: block;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .edu_info {
+    font-size: 14px;
+  }
+
+  .comp {
+    font-size: 14px;
+  }
+
+  .details {
+    font-size: 14px;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 700;
+    /* display: flex;
+    justify-content: center; */
+    /* margin-left: 20px; */
+  }
+
+  .profession {
+    font-size: 18px;
+    font-weight: 500;
+    /* display: flex;
+    justify-content: center; */
+    /* margin-left: 20px; */
+  }
+
+  .icon {
+    stroke: #ffffff;
+    width: 18px;
+    height: 18px;
+  }
+
+  .social_info {
+    font-size: 14px;
+  }
+
+  .relevant-skills {
+    font-size: 16px;
+  }
+
+  .rel-skills li {
+    font-size: 14px;
+  }
 }
